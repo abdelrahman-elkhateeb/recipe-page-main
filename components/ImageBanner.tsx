@@ -3,8 +3,8 @@ import omelette from "@/public/image-omelette.jpeg"
 
 export default function ImageBanner() {
   return (
-    <div className="">
-      <Image src={omelette} alt="omelette" />
+    <div className="rounded-xl">
+      <Image src={omelette} className="rounded-lg" alt="omelette" />
     </div>
   )
 }
